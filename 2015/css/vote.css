@@ -1,0 +1,44 @@
+@charset "windows-1251";
+body,html{background-color: transparent; background: transparent; color: black;}
+@font-face {
+  font-family: MuseoSansCyrl-300;
+  src: url('../font/MuseoSansCyrl-300.eot?#iefix');
+  src: url('../font/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('../font/MuseoSansCyrl-300.woff') format('woff'),
+  url('../font/MuseoSansCyrl-300.ttf') format('truetype'),
+  url('../font/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+  font-family: MuseoSansCyrl-700;
+  src: url('../font/MuseoSansCyrl_700.eot?#iefix');
+  src: url('../font/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+  url('../font/MuseoSansCyrl_700.woff') format('woff'),
+  url('../font/MuseoSansCyrl_700.ttf') format('truetype'),
+  url('../font/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+.float{float: left; padding-right: 30px; height: 22px; padding-bottom: 20px;}
+.float.vk-button{padding-right: 0px;}
+.TextTitle{font-size: 24px; padding-bottom: 22px; font-family: MuseoSansCyrl-300;}
+.TextTitle .TextBig{font-size: 24px; font-family: MuseoSansCyrl-700;}
+#buttons{padding-bottom: 25px;}
+.Vote{margin-bottom: 40px; text-align: center;}
+.Vote.active .button{color: white; overflow: hidden; background-color: #0083ca;}
+.Vote.active .button:before{content: "ÂÀØ ÃÎËÎÑ Ó×Ò¨Í"; display: block; font-family: MuseoSansCyrl-300; font-size: 15px; line-height: 36px; height: 36px; color: white;
+  padding: 0 20px 0 20px; border-radius: 19px; background-color: #0083ca;}
+.thx{background: url(../images/thx.png) center top no-repeat; width: 437px; height: 25px;}
+.button{display: inline-block; zoom: 1; *display: inline; cursor: pointer; font-family: MuseoSansCyrl-300; font-size: 15px; line-height: 36px; height: 36px; color: white;
+  padding: 0 20px 0 20px; border-radius: 19px; background-color: #3babf0;}
+.button:hover{background-color: #0083ca;}
+@media only screen and (max-width: 668px) {
+	#buttons {
+		padding-bottom: 0;
+		height: 87px;
+	}
+    .Vote {
+	    margin-bottom: 17px;
+	}
+	.TextTitle {
+		 font-size: 20px;
+         padding-bottom: 26px;
+	}
+}

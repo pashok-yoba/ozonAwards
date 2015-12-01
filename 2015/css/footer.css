@@ -1,0 +1,485 @@
+@font-face {
+    font-family: Museo-500;
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: Museo-700;
+    src: url('../fonts/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../fonts/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl_700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+/* footer partner */
+#aboutPartners {
+    background-color: #f1f4f5;
+    padding-top: 40px;
+    min-width: 1000px;
+}
+#aboutPartners .aboutOrganizationList {
+    padding-top: 25px;
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+#aboutPartners .aboutOrganizationList__item {
+    display: inline-block;
+    height:  83px;
+    vertical-align: top;
+    position: relative;
+}
+#aboutPartners .aboutOrganizationList__item--1 {
+    width: 162px;
+}
+#aboutPartners .aboutOrganizationList__item--2 {
+    width: 152px;
+    margin-left: 130px;
+    margin-right: 80px;
+}
+#aboutPartners .aboutOrganizationList__item--3 {
+    width: 266px;
+}
+#aboutPartners .organizationName {
+    font-family: Museo-300, Arial, sans-serif;
+    font-size: 18px;
+    display: block;
+}
+
+#aboutPartners .organizationImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#aboutPartners .organizationImage--1  {
+    background-image: url(../img/partners/organ-1.jpg);
+    height: 44px;
+}
+#aboutPartners .organizationImage--2  {
+    background-image: url(../img/partners/organ-2.jpg);
+    height: 44px;
+}
+#aboutPartners .organizationImage--3  {
+    background-image: url(../img/partners/organ-3.jpg);
+    height: 39px;
+}
+#aboutPartners .aboutPartners__name {
+    text-align: center;
+    font-family: Museo-700, Arial, sans-serif;
+    font-size:  24px;
+    text-transform: uppercase;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+#aboutPartners .aboutPartnersList {
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+#aboutPartners .aboutPartnersList__item {
+    display: inline-block;
+    margin: 45px 15px 0;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+#aboutPartners .aboutPartnersList__item--1 {
+    background-image: url(../img/partners/partner-1.jpg);
+    width: 139px;
+}
+#aboutPartners .aboutPartnersList__item--2 {
+    background-image: url(../img/partners/partner-2.jpg);
+    width: 138px;
+}
+#aboutPartners .aboutPartnersList__item--3 {
+    background-image: url(../img/partners/partner-3.jpg);
+    width: 133px;
+}
+
+#aboutPartners .aboutPartnersList__item--4 {
+    background-image: url(../img/partners/partner-4.jpg);
+    width: 153px;
+}
+#aboutPartners .aboutPartnersList__item--5 {
+    background-image: url(../img/partners/partner-5.jpg);
+    width: 104px;
+}
+#aboutPartners .aboutPartnersList__item--6 {
+    background-image: url(../img/partners/partner-6.jpg);
+    width: 164px;
+}
+
+#aboutPartners .aboutPartnersList__item--7 {
+    background-image: url(../img/partners/partner-7.jpg);
+    width: 148px;
+}
+#aboutPartners .aboutPartnersList__item--8 {
+    background-image: url(../img/partners/partner-8.jpg);
+    width: 131px;
+}
+#aboutPartners .aboutPartnersList__item--9 {
+    background-image: url(../img/partners/partner-9.jpg);
+    width: 117px;
+}
+
+#aboutPartners .aboutPartnersList__item--10 {
+    background-image: url(../img/partners/partner-10.jpg);
+    width: 104px;
+}
+#aboutPartners .aboutPartnersList__item--11 {
+    background-image: url(../img/partners/partner-11.jpg);
+    width: 71px;
+}
+#aboutPartners .aboutPartnersList__item--12 {
+    background-image: url(../img/partners/partner-12.jpg);
+    width: 138px;
+}
+
+#aboutPartners .aboutPartnersList__item--13 {
+    background-image: url(../img/partners/partner-13.jpg);
+    width: 83px;
+}
+#aboutPartners .aboutPartnersList__item--14 {
+    background-image: url(../img/partners/partner-14.jpg);
+    width: 144px;
+}
+#aboutPartners .aboutPartnersList__item--15 {
+    background-image: url(../img/partners/partner-15.jpg);
+    width: 147px;
+}
+/* footer links  blue*/
+#footer {
+    height: 118px;
+    position: relative;
+    background-color: #3babf0;
+    overflow: hidden;
+    font-family:  Museo-500, Arial, sans-serif;
+    min-width: 1000px;
+}
+/* --------logo footer---------- */
+#footer .footerLogo {
+    display: block;
+    position: absolute;
+    width: 358px;
+    height: 358px;
+    background-image: url(../img/footer/logo-without-bubles.png);
+    background-repeat: no-repeat;
+    left: -53px;
+    top: -128px;
+}
+/* стили ie8 */
+.no-borderradius #footer .bubblesList {
+    display: none;
+}
+.no-borderradius  #footer .footerLogo {
+    background-image: url(../img/header/logoIE.png);
+}
+#footer .footerLogo__bubbles {
+    position: absolute;
+    top: 220px;
+    left: 143px;
+}
+#footer .bubblesList {
+    display: inline-block;
+}
+#footer .bubblesList__bubble {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#footer .bubblesList__bubble--blue {
+    background-color: #007ac0;
+}
+#footer .bubblesList__bubble--green {
+    background-color: #a2c037;
+}
+#footer .bubblesList__bubble--orange {
+    background-color: #e19f1a;
+}
+#footer .bubblesList__bubble--red {
+    background-color: #c73429;
+}
+#footer .bubblesList__bubble--purples {
+    background-color: #9a438d;
+}
+/* ----------------------------- */
+/* menu social */
+#footer .footerSocial {
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 221px;
+    top: 66px
+}
+#footer .footerSocial__item {
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 14px;
+}
+#footer .footerSocial__item--1 {
+    padding: 0 55px 0 14px;
+}
+#footer .footerSocial__item--2 {
+    padding: 0 8px 0 0;
+}
+#footer .footerSocial__item--icons {
+    padding: 0 9px 0 0;
+}
+#footer .footerSocialLink {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#footer .footerSocialText {
+    display: inline-block;
+}
+#footer .footerSocialMail {
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    background-image: url(../img/footer/mailing.jpg);
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#footer .socialIcon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
+    background-repeat:  no-repeat;
+    background-position: center center;
+}
+#footer .socialIcon--faceBook {
+    background-image: url(../img/header/facebook-on.png);
+}
+#footer .socialIcon--faceBookActive {
+    background-image: url(../img/header/facebook-off.png);
+    background-color: white;
+}
+#footer .socialIcon--vk {
+    background-image: url(../img/header/vk-on.png);
+}
+#footer .socialIcon--vkActive {
+    background-image: url(../img/header/vk-off.png);
+    background-color: white;
+}
+#footer .socialIcon--class {
+    background-image: url(../img/header/class-on.png);
+}
+#footer .socialIcon--classActive {
+    background-color: white;
+    background-image: url(../img/header/class-off.png);
+}
+#footer .socialIcon--tweeter {
+    background-image: url(../img/header/twitter-on.png);
+}
+#footer .socialIcon--tweeterActive {
+    background-color: white;
+    background-image: url(../img/header/twitter-off.png);
+}
+
+/* стили для ie8 */
+.no-borderradius #footer .socialIcon--faceBook {
+    background-image: url(../img/header/facebookIE.png);
+    width: 29px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #footer .socialIcon--vk {
+    background-image: url(../img/header/vkIE.png);
+    width: 27px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #footer .socialIcon--class {
+    background-image: url(../img/header/classIE.png);
+    width: 28px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #footer .socialIcon--tweeter {
+    background-image: url(../img/header/twitterIE.png);
+    width: 27px;
+    height: 29px;
+    border: none
+}
+
+/*----------------------------- */
+/* footer menu nav */
+#footer .footerMenu {
+    position: absolute;
+    top: 28px;
+    left: 221px;
+}
+#footer .footerMenu:after {
+    content: ' ';
+    width: 0;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#footer .footerMenu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 15px;
+    vertical-align: middle;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+#footer .footerMenu__item--home {
+    width: 19px;
+    height: 19px;
+    background-image: url(../img/footer/home.jpg);
+}
+#footer .footerMenu__item--voting {
+    background-color: #ffae00;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+#footer .footerDate {
+    font-family: Museo-500, Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    right: 40px;
+    color: white;
+}
+#footer .footerMenu__item--hover:hover:after {
+    content: ' ';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: #ffc20e;
+}
+/* стили партнеров */
+@media only screen and (max-width: 668px) {
+    .mobile #aboutPartners {
+        min-width: 320px;
+        padding-top: 20px;
+    }
+    .mobile #aboutPartners .aboutOrganizationList {
+        width: auto;
+    }
+    .mobile #aboutPartners .aboutOrganizationList__item {
+        width: 96px;
+        margin: 0;
+    }
+    .mobile #aboutPartners .organizationName {
+        font-size: 12px;
+    }
+    .mobile #aboutPartners .organizationImage {
+        background-size:  contain;
+    }
+    .mobile #aboutPartners .aboutPartners__name {
+        width: auto;
+        font-size: 16px;
+    }
+    .mobile #aboutPartners .aboutPartnersList {
+        width: auto;
+        min-width: 320px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .mobile #aboutPartners .aboutPartnersList__item {
+        margin: 10px 3px 0 3px;
+        width: 90px;
+        height: 31px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+/*------------------- */
+/* стили футера */
+@media only screen and (max-width: 668px) {
+    .mobile #footer{
+        min-width: 320px;
+        width: auto;
+        height: 112px;
+        overflow: hidden;
+    }
+    /* логотип */
+    .mobile #footer .footerLogo {
+        width:200px;
+        height: 200px;
+        background-size: cover;
+        top: -50px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    .mobile #footer .footerLogo__bubbles  {
+        top: 113px;
+        left: 82px;
+    }
+    .mobile #footer .bubblesList__bubble {
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+    }
+    /* -------------------- */
+    /* основное меню */
+    .mobile #footer .footerMenu {
+        width: 100%;
+        top: 90px;
+        left:0;
+        background-color: #3babf0; ;
+        overflow: hidden;
+        height: 22px;
+    }
+    .mobile #footer .footerMenu__item {
+        display: block;
+        margin: 0;
+        float: left;
+        box-sizing: border-box;
+        padding: 0;
+        width: 23.5%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .mobile #footer .footerMenu__item--voting {
+        width: 24.0625%;
+    }
+    .mobile #footer .footerMenu__item--nomination {
+        width: 26%;
+    }
+    .mobile #footer .footerMenu__item--voting {
+        width: 28.0625%
+    }
+    /*---------------------------- */
+    /* меню кнопок соц-сетей */
+    .mobile #footer .footerSocial {
+       display: none;
+    }
+    .mobile #footer .footerDate {
+        display: none;
+    }
+
+    /* ----------------------------- */
+}
+/* смена размера шрифта менюшки*/
+@media only screen and (min-width: 400px) and (max-width: 668px){
+    .mobile #header .headerMenu__item {
+        font-size: 12px;
+    }
+}

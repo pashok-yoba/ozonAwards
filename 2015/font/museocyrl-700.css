@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'MuseoCyrl-700';
+  src: url('MuseoCyrl-700.eot?#iefix') format('embedded-opentype'),  url('MuseoCyrl-700.otf')  format('opentype'),
+	     url('MuseoCyrl-700.woff') format('woff'), url('MuseoCyrl-700.ttf')  format('truetype'), url('MuseoCyrl-700.svg#MuseoCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

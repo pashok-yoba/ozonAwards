@@ -1,0 +1,156 @@
+html, body{margin: 0px; padding: 0px;}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url('../font/MuseoSansCyrl.eot?#iefix');
+    src: url('../font/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'),
+    url('../font/MuseoSansCyrl.woff') format('woff'),
+    url('../font/MuseoSansCyrl.ttf') format('truetype'),
+    url('../font/MuseoSansCyrl.svg#MuseoSansCyrl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MuseoSansCyrl-100;
+    src: url('../font/MuseoSansCyrl_100.eot?#iefix');
+    src: url('../font/MuseoSansCyrl_100.eot?#iefix') format('embedded-opentype'),
+    url('../font/MuseoSansCyrl_100.woff') format('woff'),
+    url('../font/MuseoSansCyrl_100.ttf') format('truetype'),
+    url('../font/MuseoSansCyrl_100.svg#MuseoSansCyrl_100') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MuseoSansCyrl-300;
+    src: url('../font/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../font/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../font/MuseoSansCyrl-300.woff') format('woff'),
+    url('../font/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../font/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: MuseoSansCyrl-500;
+    src: url('../font/MuseoSansCyr_500.eot?#iefix');
+    src: url('../font/MuseoSansCyr_500.eot?#iefix') format('embedded-opentype'),
+    url('../font/MuseoSansCyr_500.woff') format('woff'),
+    url('../font/MuseoSansCyr_500.ttf') format('truetype'),
+    url('../font/MuseoSansCyr_500.svg#MuseoSansCyr_500') format('svg');
+}
+@font-face {
+    font-family: MuseoSansCyrl-700;
+    src: url('../font/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../font/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../font/MuseoSansCyrl_700.woff') format('woff'),
+    url('../font/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../font/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+@font-face {
+    font-family: 'MuseoCyrl100';
+    src: url('../font/exljbris-museocyrl100.eot?#iefix');
+    src: url('../font/exljbris-museocyrl100.eot?#iefix') format('embedded-opentype'),
+         url('../font/exljbris-museocyrl100.woff2') format('woff2'),
+         url('../font/exljbris-museocyrl100.woff') format('woff'),
+         url('../font/exljbris-museocyrl100.ttf') format('truetype'),
+         url('../font/exljbris-museocyrl100.svg#MuseoCyrl100') format('svg');
+}
+@font-face {
+    font-family: 'MuseoCyrl300';
+    src: url('../font/exljbris-museocyrl300.eot?#iefix');
+    src: url('../font/exljbris-museocyrl300.eot?#iefix') format('embedded-opentype'),
+         url('../font/exljbris-museocyrl300.woff2') format('woff2'),
+         url('../font/exljbris-museocyrl300.woff') format('woff'),
+         url('../font/exljbris-museocyrl300.ttf') format('truetype'),
+         url('../font/exljbris-museocyrl300.svg#MuseoCyrl300') format('svg');
+}
+
+@font-face {
+  font-family: 'MuseoCyrl-500';
+  src: url('../font/MuseoCyrl-500.eot?#iefix') format('embedded-opentype'),  url('../font/MuseoCyrl-500.otf')  format('opentype'),
+	   url('../font/MuseoCyrl-500.woff') format('woff'), 
+	   url('../font/MuseoCyrl-500.ttf')  format('truetype'), 
+	   url('../font/MuseoCyrl-500.svg#MuseoCyrl-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoCyrl-700';
+  src: url('../font/MuseoCyrl-700.eot?#iefix') format('embedded-opentype'),  url('../font/MuseoCyrl-700.otf')  format('opentype'),
+	   url('../font/MuseoCyrl-700.woff') format('woff'), 
+	   url('../font/MuseoCyrl-700.ttf')  format('truetype'), 
+	   url('../font/MuseoCyrl-700.svg#MuseoCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoCyrl-900';
+  src: url('../font/MuseoCyrl-900.eot?#iefix') format('embedded-opentype'),  url('../font/MuseoCyrl-900.otf')  format('opentype'),
+	     url('../font/MuseoCyrl-900.woff') format('woff'), 
+	     url('../font/MuseoCyrl-900.ttf')  format('truetype'), 
+	     url('../font/MuseoCyrl-900.svg#MuseoCyrl-900') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#prm *{margin: 0; padding: 0;}
+#prm {padding: 0px; margin: 0px;}
+#prm .content{width: 850px; margin: 0 auto;}
+#prm .book{padding-top: 70px; padding-bottom: 50px; margin-bottom: 40px; z-index: 1; color: white; background: url("../images/books-bg.jpg") center top no-repeat #0083ca; }
+#prm .book .bookMid{width: 850px; margin: 0 auto;}
+#prm .image{width: 50%; min-height: 500px; float: left; position: relative;}
+#prm .button{display: inline-block; zoom: 1; *display: inline; cursor: pointer; font-family: MuseoSansCyrl-300; font-size: 15px; line-height: 36px; height: 36px; color: white; border: 1px solid white;
+    padding: 0 20px 0 20px; border-radius: 19px; text-decoration: none;
+    o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;}
+#prm .button.vote{margin-right: 18px;}
+#prm .button:hover{color: #0083ca; background-color: white;}
+#prm .button.active{color: #0083ca; background-color: white;}
+#prm .book .BookImage{width: 310px}
+#prm .about{color: black;}
+#prm .about .block{padding-bottom: 25px;}
+#prm .about .block .Text{line-height: 24px; position: relative; font-family: MuseoSansCyrl-300; overflow: hidden; font-size: 18px;}
+#prm .about .block .Text .TextName{font-family: MuseoSansCyrl-700; font-size: 18px;}
+#prm .about .block .Text .TextLeft{width: 155px; float: left; height: 20px; background: url("../images/stars.png") left top no-repeat;}
+#prm .about .block .Text .TextRight{float: right; width: 695px;}
+#prm .about .block .TextTitle{line-height: 40px; font-family: MuseoSansCyrl-700; font-size: 24px; background: url("../images/books-dotted.png") center center repeat-x; text-align: center;
+margin-bottom: 25px;}
+#prm .about .block .TextTitle .TextMid{height: 40px; background-color: white; padding: 0 25px; display: inline-block; zoom: 1; *display: inline;}
+#prm .izd .name{font-family: MuseoSansCyrl-700; font-size: 42px; padding-bottom: 25px;}
+#prm .izd .autor{font-family: MuseoSansCyrl-700; font-size: 24px; text-decoration: underline; padding-bottom: 35px;}
+#prm .izd{width: 50%; float: right; font-family: MuseoSansCyrl-300;}
+#prm .izd ul{list-style: none; padding-bottom: 50px; font-size: 18px; line-height: 24px;}
+#prm .izd span{font-family: MuseoSansCyrl-700;}
+#prm .botButtons{padding: 30px 0; text-align: center; background-color: #0083ca;}
+#prm .voteOther{font-family: MuseoSansCyrl-500; font-size: 20px; color: black; text-align: center; padding: 65px 0 25px 0;}
+#prm .nominations{text-align: center; padding-bottom: 50px;}
+#prm .nominations a{text-decoration: none; font-family: MuseoSansCyrl-500; color: #0083ca; font-size: 18px; margin: 0 10px 0 10px;}
+#prm .nominations a:hover{color: #0D4B6D;}
+#popup-back{display: none; padding: 0px; margin: 0px; z-index: 14; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: url(../images/pop_up_bg.png)}
+#popup*{padding: 0px; margin: 0px}
+#popup{display: none; padding: 0px; margin: 0px; position: fixed; height: 480px; width: 750px; background-color: white; border-radius: 22px; top: 50%; left: 50%;
+margin-left: -375px; margin-top: -240px; z-index: 15;}
+#popup .cross{width: 30px; height: 26px; background: url(../images/cross.png) 0 0 no-repeat; position: absolute; top: 8px; right: 8px; cursor: pointer; z-index: 3;}
+#popup .cross:hover{background-position: 0 -26px;}
+#popup iframe{position: absolute; top: 38px; left: 55px; width: 660px; z-index: 1;}
+
+.float{float: left; padding-right: 30px; height: 22px;}
+.float.vk-button{padding-right: 0px;}
+#buttons{padding-top: 20px; z-index: 90;}
+@media only screen and (max-width: 640px) {
+    #prm .book{padding: 3% 0;}
+    #prm .book .bookMid{width: 100%;}
+    #prm .image{width: auto; min-height: 300px!important; text-align: center;}
+    #prm .book .BookImage{width: 60%; padding: 3%;}
+    #prm .izd{width: auto; float: none; padding: 0 3%;}
+    #prm .button.vote{margin: 0 0 15px 0;}
+    #prm .content{width: auto;}
+    #prm .about .block .Text{padding: 0 3%;}
+    #prm .about .block .Text .TextLeft{float: none; width: auto; margin-bottom: 15px;}
+    #prm .about .block .Text .TextRight{float: none; width: auto;}
+    #prm .voteOther{padding: 3%;}
+    #prm .nominations{padding: 0 3%;}
+    #popup{left: 0; top: 0; margin: 0; width: 100%; height: 100%;}
+    #popup iframe{width: 100%; left: 3%; top: 33px;}
+}

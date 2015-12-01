@@ -1,0 +1,454 @@
+@font-face {
+    font-family: Museo-500;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: Museo-700;
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl_700.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+@font-face {
+    font-family: Museo-300;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+#nominationSection .nominationContainer {
+    background-color: #0083ca;
+    overflow: hidden;
+}
+#nominationSection .nominationDetail {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 62px 0 33px 0;
+    position: relative;
+}
+#nominationSection .nominationDetail__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size:  42px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+}
+#nominationSection .nominationDetail__informationTExt {
+    font-family: Museo-300, Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 1.3em;
+    width: 850px;
+    color: white;
+}
+/* номинации круги */
+#nominationSection .nominationList {
+    padding-top: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#nominationSection .nominationList__item {
+    margin-left: 30px;
+    float: left;
+}
+#nominationSection .nominationItem {
+    width: 100px;
+}
+#nominationSection .nominationItem__circle {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+/* стили ie */
+.no-borderradius #nominationSection .nominationItem__circle {
+    border: none;
+
+}
+.no-borderradius #nominationSection .nominationList__item {
+    background-image: url(../../img/nomination/radiusIE.png);
+    background-repeat: no-repeat;
+}
+#nominationSection .nominationItem__circle--1 {
+    background-image: url(../../img/nomination/nom-1.png);
+}
+#nominationSection .nominationItem__circleHover--1 {
+    background-image: url(../../img/nomination/nom-1-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--2 {
+    background-image: url(../../img/nomination/nom-2.png);
+}
+#nominationSection .nominationItem__circleHover--2 {
+    background-image: url(../../img/nomination/nom-2-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--3 {
+    background-image: url(../../img/nomination/nom-3.png);
+}
+#nominationSection .nominationItem__circleHover--3 {
+    background-image: url(../../img/nomination/nom-3-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--4 {
+    background-image: url(../../img/nomination/nom-4.png);
+}
+#nominationSection .nominationItem__circleHover--4 {
+    background-image: url(../../img/nomination/nom-4-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--5 {
+    background-image: url(../../img/nomination/nom-5.png);
+}
+#nominationSection .nominationItem__circleHover--5 {
+    background-image: url(../../img/nomination/nom-5-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--6 {
+    background-image: url(../../img/nomination/nom-6.png);
+}
+#nominationSection .nominationItem__circleHover--6 {
+    background-image: url(../../img/nomination/nom-6-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--7 {
+    background-image: url(../../img/nomination/nom-7.png);
+}
+#nominationSection .nominationItem__circleHover--7 {
+    background-image: url(../../img/nomination/nom-7-hover.png);
+    background-color: white;
+}
+
+
+#nominationSection .nominationItem__circle--8 {
+    background-image: url(../../img/nomination/nom-8.png);
+}
+#nominationSection .nominationItem__circleHover--8 {
+    background-image: url(../../img/nomination/nom-8-hover.png);
+    background-color: white;
+}
+
+#nominationSection .nominationItem__circle--9 {
+    background-image: url(../../img/nomination/nom-9.png);
+}
+#nominationSection .nominationItem__circleHover--9 {
+    background-image: url(../../img/nomination/nom-9-hover.png);
+    background-color: white;
+}
+#nominationSection .nominationItem__name {
+    font-family: Museo-500, Arial, sans-serif;
+    text-align: center;
+    font-size:  15px;
+    padding-top: 10px;
+    display: block;
+    color: white;
+}
+/* --------------------- */
+#nominationSection .nominationDetail__circle {
+    position: absolute;
+}
+#nominationSection .nominationDetail__circle--1 {
+    width: 455px;
+    height: 226px;
+    bottom: 0;
+    left: -240px;
+    background-image: url(../../img/nomination/circleBack-1.png);
+}
+#nominationSection .nominationDetail__circle--2 {
+    width: 337px;
+    height: 170px;
+    top: 0;
+    right: -40px;
+    background-image: url(../../img/nomination/circleBack-2.png);
+}
+/*------------------------- */
+
+#nominationSection .CategoriesContainer {
+    width: 850px;
+    margin: 0 auto;
+}
+/* книги */
+#nominationSection .nominationBooks {
+    text-align: center;
+}
+#nominationSection .nominationBooks__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-bottom: 28px;
+}
+#nominationSection .nominationStepLine {
+    width: 340px;
+    background-image: url(../../img/nomination/border.png);
+    background-repeat: repeat-x;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+}
+#nominationSection .nominationStepLine--left {
+    left: 0
+}
+#nominationSection .nominationStepLine--right {
+    right: 0
+}
+#nominationSection .nominationBooks__image {
+    width: 44px;
+    height: 33px;
+    background-image: url(../../img/nomination/logo-book.jpg);
+    display: inline-block;
+    margin: 20px 0 10px 0;
+}
+#nominationSection .nominationBooksVoting__name {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Museo-500, Arial, sans-serif;
+    font-size: 20px;
+}
+#nominationSection .nominationBooksVotingList {
+
+}
+#nominationSection .nominationBooksVotingList__item {
+    display: inline-block;
+    margin: 15px 10px 0 10px;
+}
+#nominationSection .VotingItem {
+    width: 403px;
+    background-color: #f1f4f5;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    height: 157px;
+    vertical-align: top;
+}
+#nominationSection .VotingItem__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#nominationSection .VotingItem__text {
+    font-family: Museo-500, Arial, sans-serif;
+    font-size: 15px;
+    padding: 14px 10px 0 10px;
+}
+#nominationSection .votingButtonContainer {
+    margin-top: 15px;
+    height: 36px;
+}
+#nominationSection .votingButtonContainer:after {
+    content: ' ';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+#nominationSection .votingButton {
+    display: inline-block;
+    height: 28px;
+    font-family: Museo-300, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 28px;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 14px;
+    border: 1px solid #80b96c;
+    font-size: 12px;
+    text-decoration: none;
+    width: 128px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*стили ie */
+.no-borderradius #nominationSection .votingButton {
+    border: none;
+    background-image: url(../../img/nomination/borderIE.png);
+    width: 130px;
+    height: 30px;
+}
+#nominationSection .votingButton--active {
+    height: 36px;
+    width: 138px;
+    border-radius: 18px;
+    line-height: 36px;
+    font-size: 14px;
+}
+#nominationSection .nominationBooksVoting__name--addition {
+    padding: 30px 0 30px 0;
+}
+#nominationSection .VotingItem--addition {
+    height: 125px;
+}
+/* ------------------ /*
+/* все категории */
+#nominationSection .VotingItem--all {
+    height: 121px;
+}
+#nominationSection .nominationAllCategoties {
+    text-align: center;
+    padding-bottom: 55px;
+}
+#nominationSection .nominationAll__image {
+    display: inline-block;
+    margin-top: 25px;
+}
+#nominationSection .nominationAll__image--electronics {
+    width: 49px;
+    height: 52px;
+    background-image: url(../../img/nomination/electr.jpg);
+}
+#nominationSection .nominationAll__image--cosm {
+    width: 48px;
+    height: 47px;
+    background-image: url(../../img/nomination/cosm.jpg);
+}
+#nominationSection .nominationAll__image--tech {
+    width: 52px;
+    height: 43px;
+    background-image: url(../../img/nomination/tech.jpg);
+}
+#nominationSection .nominationAll__image--children {
+    width: 47px;
+    height: 47px;
+    background-image: url(../../img/nomination/child.jpg);
+}
+#nominationSection .nominationAll__image--yourself {
+    width: 52px;
+    height: 48px;
+    background-image: url(../../img/nomination/yourself.jpg);
+}
+#nominationSection .nominationAll__image--clothes {
+    width: 50px;
+    height: 52px;
+    background-image: url(../../img/nomination/clothers.jpg);
+}
+#nominationSection .nominationAll__image--sport {
+    width: 50px;
+    height: 48px;
+    background-image: url(../../img/nomination/sport.jpg);
+}
+#nominationSection .nominationAll__image--market {
+    width: 55px;
+    height: 49px;
+    background-image: url(../../img/nomination/market.jpg);
+}
+
+
+#nominationSection .nominationAll__name {
+    position: relative;
+}
+#nominationSection .nominationStepText {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+#nominationSection .nominationStepLine--width {
+    width: 270px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+    #nominationSection .nominationDetail {
+        width: 1000px;
+    }
+    #nominationSection .nominationItem__circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+    }
+    #nominationSection .nominationItem {
+        width: 90px;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 668px) {
+/* стили номинаций */
+    .mobile #nominationSection .nominationDetail {
+        width: auto;
+        padding: 25px 0 0 0;
+    }
+    .mobile #nominationSection .nominationDetail__circle {
+        display: none;
+    }
+    .mobile #nominationSection .nominationList {
+        text-align: center;
+    }
+    .mobile #nominationSection .nominationDetail__informationTExt {
+        width: auto;
+    }
+    .mobile #nominationSection .nominationList__item {
+        float: none;
+        display: inline-block;
+        margin: 10px 10px 0;
+        height: 132px;
+        vertical-align: top;
+        width: 80px;
+    }
+    .mobile #nominationSection .nominationItem__circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+    .mobile #nominationSection .nominationItem__name {
+        font-size: 14px;
+    }
+    .mobile #nominationSection .nominationDetail__name {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    .mobile #nominationSection .nominationDetail__informationTExt {
+        font-size: 17px;
+    }
+    .mobile #nominationSection .nominationList {
+        padding-top: 18px;
+    }
+}
+/* стили категорий */
+    .mobile #nominationSection .CategoriesContainer {
+        width: auto;
+    }
+    .mobile #nominationSection .nominationStepLine {
+        display: none;
+    }
+    .mobile #nominationSection .nominationBooks__name {
+        padding-bottom: 12px;
+    }
+    .mobile #nominationSection .VotingItem {
+        width: 90%;
+        height: auto;
+    }
+    .mobile #nominationSection .nominationStepText {
+        font-size: 16px;
+    }
+    .mobile #nominationSection .nominationBooksVoting__name {
+        font-size: 15px;
+    }
+    .mobile #nominationSection .VotingItem__name {
+        font-size: 16px;
+    }
+    .mobile #nominationSection .nominationBooksVoting__name--addition {
+        padding: 25px 0 0 0;
+    }

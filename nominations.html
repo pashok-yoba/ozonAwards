@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="yui3-cssreset">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="2015/css/cssreset-context-min.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/header.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/nomination/nomination.css">
+    <script src="2015/js/modernizr.custom.37278.js"></script>
+    <meta charset="UTF-8">
+
+    <script src="2015/js/modernizr.custom.37278.js"></script>
+    <script src="2015/js/detectmobilebrowser.js"></script>
+    <script src="2015/js/TweenMax.min.js"></script>
+    <script src="2015/js/ScrollToPlugin.min.js"></script>
+    <script src="2015/js/header.js"></script>
+    <script src="2015/js/nomination.js"></script>
+
+
+    <meta property="og:title" content="OZON ONLINE AWARDS: НОВОСТИ ПРОЕКТА" />
+    <meta property="og:site_name" content="OZON.ru" />
+    <meta property="og:description" content="Вы – выбираете, а мы – награждаем! Книги, блогеры, бестселлеры в основных категориях OZON.ru!"/>
+    <meta name="description" content="Вы – выбираете, а мы – награждаем! Книги, блогеры, бестселлеры в основных категориях OZON.ru!"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="header" id="header">
+    <a class="headerLogo" href="index.html">
+        <ul class="headerLogo__bubbles bubblesList">
+            <li class="bubblesList__bubble bubblesList__bubble--blue"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--green"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--orange"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--red"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--purples"></li>
+        </ul>
+    </a>
+    <ul class="headerSocial">
+        <li class="headerSocial__item">
+            <a class="headerSocialLink" href="mailto:premia@ozon.ru?subject=OZON AWARDS"><span class="headerSocialMail"></span><span class="headerSocialText">Написать нам</span></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--2">
+            <span class="headerSocialLink" ><span class="headerSocialText">Расскажите о нас</span></span>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--faceBook" onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--vk"  onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--class" onclick="this.href='http://odnoklassniki.ru/dk?st.cmd=addShare&st.s=1000&st._surl='+window.location.href+window.location.hash+'&tkn=3009'"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--tweeter" onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="headerSocial__close"></li>
+    </ul>
+    <nav class="headerMenu">
+        <a href="index.html" class="headerMenu__item headerMenu__item--home"></a>
+        <a href="news.html" class="headerMenu__item headerMenu__item--news headerMenu__item--hover">Новости</a>
+        <a href="about.html" class="headerMenu__item headerMenu__item--about headerMenu__item--hover">О премии</a>
+        <a href="nominations.html" class="headerMenu__item headerMenu__item--nomination headerMenu__item--hover">Номинации</a>
+        <a href="index.html?voting" class="headerMenu__item headerMenu__item--voting">Голосование</a>
+    </nav>
+</header>
+
+<div id="nominationSection">
+    <div class="nominationContainer">
+        <article class="nominationDetail">
+            <h1 class="nominationDetail__name">Номинации</h1>
+            <p class="nominationDetail__informationTExt">
+                Лучшее сочетание цены и качества этих товаров сделали их бестселлерами, а мы отметим это премией! Но положительные отзывы тоже кое-что значат, не так ли? Особенно, когда их много. Очень много. Разве это не достойно награды? Ещё как достойно!
+            </p>
+            <ul class="nominationList">
+                <li class="nominationList__item nominationItem">
+                    <a href="#books" class="nominationItem__circle nominationItem__circle--1"></a>
+                    <span class="nominationItem__name">Книги</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#electronics" class="nominationItem__circle nominationItem__circle--2"></a>
+                    <span class="nominationItem__name">Электроника</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#cosm" class="nominationItem__circle nominationItem__circle--3"></a>
+                    <span class="nominationItem__name">Косметика</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#tech" class="nominationItem__circle nominationItem__circle--4"></a>
+                    <span class="nominationItem__name">Бытовая<br/>техника</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#children" class="nominationItem__circle nominationItem__circle--5"></a>
+                    <span class="nominationItem__name">Товары<br/>для детей</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#yourself" class="nominationItem__circle nominationItem__circle--6"></a>
+                    <span class="nominationItem__name">Сделай сам</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#clothes" class="nominationItem__circle nominationItem__circle--7"></a>
+                    <span class="nominationItem__name">Одежда</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#sport" class="nominationItem__circle nominationItem__circle--8"></a>
+                    <span class="nominationItem__name">Спорттовары</span>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="#market" class="nominationItem__circle nominationItem__circle--9"></a>
+                    <span class="nominationItem__name">Маркетинг</span>
+                </li>
+            </ul>
+            <div class="nominationDetail__circle nominationDetail__circle--1"></div>
+            <div class="nominationDetail__circle nominationDetail__circle--2"></div>
+        </article>
+    </div>
+
+    <div class="CategoriesContainer">
+        <article class="nominationBooks">
+            <div class="nominationBooks__image"></div>
+            <a name="books"></a>
+            <h2 class="nominationBooks__name">
+                <span class="nominationStepLine nominationStepLine--left"></span>
+                <span class="nominationStepText">Книги</span>
+                <span class="nominationStepLine nominationStepLine--right"></span>
+            </h2>
+            <div class="nominationBooksVoting">
+                <h3 class="nominationBooksVoting__name">Голосование</h3>
+                <ul class="nominationBooksVotingList">
+                    <li class="nominationBooksVotingList__item VotingItem">
+                        <h4 class="VotingItem__name">Лучшая художественная книга</h4>
+                        <p class="VotingItem__text">Люди прочитали, восхитились и<br/> проголосовали</p>
+                        <div class="votingButtonContainer">
+                            <a href="index.html#fiction" class="votingButton">Голосовать</a>
+                        </div>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem">
+                        <h4 class="VotingItem__name">Лучшая детская книга</h4>
+                        <p class="VotingItem__text">Голоса детей и родителей определяют победителя</p>
+                        <div class="votingButtonContainer">
+                            <a href="index.html#kids" class="votingButton">Голосовать</a>
+                        </div>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem">
+                        <h4 class="VotingItem__name">Лучшая книга нон-фикшн</h4>
+                        <p class="VotingItem__text">"Книга – что надо!", – так считает <br/> большинство</p>
+                        <div class="votingButtonContainer">
+                            <a href="index.html#nonfiction" class="votingButton">Голосовать</a>
+                        </div>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem">
+                        <h4 class="VotingItem__name">Лучшая бизнес-книга</h4>
+                        <p class="VotingItem__text">Ничего личного, просто бизнес и большинство голосов</p>
+                        <div class="votingButtonContainer">
+                            <a href="index.html#busines" class="votingButton">Голосовать</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nominationBooksVoting nominationBooksVoting--aditional">
+                <h3 class="nominationBooksVoting__name nominationBooksVoting__name--addition">Дополнительные номинации</h3>
+                <ul class="nominationBooksVotingList">
+                    <li class="nominationBooksVotingList__item VotingItem VotingItem--addition">
+                        <h4 class="VotingItem__name">Бестселлер OZON.ru</h4>
+                        <p class="VotingItem__text">Бестселлер среди книг</p>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem VotingItem--addition">
+                        <h4 class="VotingItem__name">Человек-слово</h4>
+                        <p class="VotingItem__text">Он пишет честные, информативные и полезные отзывы</p>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem VotingItem--addition">
+                        <h4 class="VotingItem__name">Лучшая цифровая книга</h4>
+                        <p class="VotingItem__text">Бестселлер на сайте LitRes.ru</p>
+                    </li>
+                    <li class="nominationBooksVotingList__item VotingItem VotingItem--addition">
+                        <h4 class="VotingItem__name">Лучший книжный блогер</h4>
+                        <p class="VotingItem__text">Книжный эксперт, которому доверяют и отдают голоса</p>
+                    </li>
+                </ul>
+            </div>
+
+        </article>
+
+        <div class="nominationAllCategoties">
+            <a name="electronics"></a>
+            <div class="nominationAll__image nominationAll__image--electronics"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Электроника</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Гаджет года</h4>
+                    <p class="VotingItem__text">Бестселлер на OZON.ru</p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Брать или не брать? Брать!</h4>
+                    <p class="VotingItem__text">Самый обсуждаемый товар года</p>
+                </li>
+            </ul>
+
+            <a name="cosm"></a>
+            <div class="nominationAll__image nominationAll__image--cosm"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Косметика</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Королева красоты</h4>
+                    <p class="VotingItem__text">Бестселлер на OZON.ru</p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Всем подружкам расскажу</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество положительных отзывов</p>
+                </li>
+            </ul>
+
+            <a name="tech"></a>
+            <div class="nominationAll__image nominationAll__image--tech"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">бытовая техника</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Создает уют (в доме)</h4>
+                    <p class="VotingItem__text">Cамый популярный товар</p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Чистота и порядок</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество отзывов</p>
+                </li>
+            </ul>
+
+            <a name="children"></a>
+            <div class="nominationAll__image nominationAll__image--children"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Товары для детей</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Детский голос</h4>
+                    <p class="VotingItem__text">Бестселлер на OZON.ru </p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Мамы обсуждают</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество отзывов</p>
+                </li>
+            </ul>
+
+            <a name="yourself"></a>
+            <div class="nominationAll__image nominationAll__image--yourself"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Сделай сам</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Мастер на все руки</h4>
+                    <p class="VotingItem__text">Бестселлер на OZON.ru</p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Все уши прожужжал</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество отзывов</p>
+                </li>
+            </ul>
+
+            <a name="clothes"></a>
+            <div class="nominationAll__image nominationAll__image--clothes"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Одежда</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Тренд года</h4>
+                    <p class="VotingItem__text">Бестселлер на OZON.ru </p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">А мне идёт!</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество отзывов</p>
+                </li>
+            </ul>
+
+            <a name="sport"></a>
+            <div class="nominationAll__image nominationAll__image--sport"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Спорттовары</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Физкульт, привет!</h4>
+                    <p class="VotingItem__text">Cамый популярный товар</p>
+                </li>
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Золотые слова</h4>
+                    <p class="VotingItem__text">Товар, получивший наибольшее количество отзывов</p>
+                </li>
+            </ul>
+
+            <a name="market"></a>
+            <div class="nominationAll__image nominationAll__image--market"></div>
+            <h3 class="nominationAll__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Маркетинг</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h3>
+            <ul class="nominationAllVotingList">
+                <li class="nominationBooksVotingList__item VotingItem VotingItem--all">
+                    <h4 class="VotingItem__name">Покупка года</h4>
+                    <p class="VotingItem__text">Товар, который продаётся по принципу "зашёл-увидел-купил"</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<footer id="aboutPartners">
+    <h2 class="aboutPartners__name">
+        <span class="aboutStepLine aboutStepLine--left"></span>
+        <span class="aboutStepText">Организаторы и партнёры</span>
+        <span class="aboutStepLine aboutStepLine--right"></span>
+    </h2>
+    <ul class="aboutOrganizationList">
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--1">
+            <span class="organizationName">Организатор:</span>
+            <div class="organizationImage organizationImage--1"></div>
+        </li>
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--2">
+            <span class="organizationName">При поддержке:</span>
+            <div class="organizationImage organizationImage--2"></div>
+        </li>
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--3">
+            <span class="organizationName">Генеральный информационный партнёр:</span>
+            <div class="organizationImage organizationImage--3"></div>
+        </li>
+    </ul>
+    <ul class="aboutPartnersList">
+        <li class="aboutPartnersList__item aboutPartnersList__item--1"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--2"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--3"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--4"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--5"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--6"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--7"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--8"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--9"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--10"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--11"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--12"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--13"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--14"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--15"></li>
+    </ul>
+</footer>
+
+<footer class="footer" id="footer">
+    <a class="footerLogo" href="index.html">
+        <ul class="footerLogo__bubbles bubblesList">
+            <li class="bubblesList__bubble bubblesList__bubble--blue"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--green"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--orange"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--red"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--purples"></li>
+        </ul>
+    </a>
+    <ul class="footerSocial">
+        <li class="footerSocial__item footerSocial__item--1">
+            <a class="footerSocialLink" href="mailto:premia@ozon.ru?subject=OZON AWARDS"><span class="footerSocialMail"></span><span class="footerSocialText">Написать нам</span></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--2">
+            <a class="footerSocialLink" href=""><span class="footerSocialText">Поделиться:</span></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--faceBook"  onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--vk" onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--class" onclick="this.href='http://odnoklassniki.ru/dk?st.cmd=addShare&st.s=1000&st._surl='+window.location.href+window.location.hash+'&tkn=3009'"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--tweeter" onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash"></a>
+        </li>
+    </ul>
+    <nav class="footerMenu">
+        <a href="index.html" class="footerMenu__item">Главная</a>
+        <a href="news.html" class="footerMenu__item footerMenu__item--news">Новости</a>
+        <a href="about.html" class="footerMenu__item footerMenu__item--about">о ПРЕМИи</a>
+        <a href="nominations.html" class="footerMenu__item footerMenu__item--nomination">НОМИНАЦИИ</a>
+    </nav>
+        <span class="footerDate">
+        © 2015 OZON.ru
+    </span>
+</footer>
+
+</body>
+</html>

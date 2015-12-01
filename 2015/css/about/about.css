@@ -1,0 +1,399 @@
+@font-face {
+    font-family: Museo-500;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: Museo-700;
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl_700.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+@font-face {
+    font-family: Museo-300;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+#aboutSection {
+    font-family: Museo-500, Arial, sans-serif;
+}
+/* о премии */
+#aboutSection .aboutDetailContainer {
+    background-color: #0083ca;
+    overflow: hidden;
+    min-width: 1000px;
+}
+#aboutSection .aboutDetail {
+    padding-top: 36px;
+    padding-left: 54px;
+    width: 960px;
+    margin: 0 auto;
+    height: 589px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#aboutSection .aboutDetail__name {
+    font-family:  Museo-700, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: white;
+    padding-top: 41px;
+}
+
+#aboutSection .aboutDetail__detailInformation  {
+    color: white;
+    font-family: Museo-300, Arial, sans-serif;
+    width: 560px;
+    padding-top: 25px;
+    line-height: 24px;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+#aboutSection .aboutDetail__blur {
+    width: 564px;
+    height: 527px;
+    background-image: url(../../img/about/blur.png);
+    position: absolute;
+    top: 0;
+    left: 554px;
+
+}
+#aboutSection .aboutDetail__prize {
+    position: absolute;
+    height: 574px;
+    width: 245px;
+    background-image: url(../../img/about/award.png);
+    bottom: -20px;
+    right: 22px;
+    z-index: 2;
+}
+/* кнопки */
+#aboutSection .aboutButtonContainer {
+    display: inline-block;
+    height: 48px;
+    margin-top: 34px;
+    width: 192px;
+    text-align: center;
+    vertical-align: top;
+}
+#aboutSection .aboutButtonContainer:after {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+}
+#aboutSection .aboutButton {
+    display: inline-block;
+    height: 38px;
+    font-family: Museo-300, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 38px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid #80b96c;
+    font-size: 15px;
+    text-decoration: none;
+    width: 172px;
+    text-align: center;
+    vertical-align: middle;
+}
+.no-borderradius #aboutSection .aboutButton {
+    border: none;
+    background-image: url(../../img/about/borderIE.png);
+}
+#aboutSection .aboutButton--active {
+    height: 48px;
+    line-height: 48px;
+    width: 192px;
+    font-size: 17px;
+    border-radius: 24px;
+}
+#aboutSection .aboutButton--left {
+    margin-right:  40px;
+}
+/* кружки задний фон */
+#aboutSection .aboutDetail__circle {
+    position: absolute;
+    background-image: url(../../img/about/circles.png);
+    background-size: 100% 100%;
+}
+/* стили ие8 */
+.no-backgroundsize #aboutSection .aboutDetail__circle {
+    display: none;
+}
+#aboutSection .aboutDetail__circle--1 {
+    width: 235px;
+    height: 235px;
+    top: 278px;
+    left: -235px;
+}
+#aboutSection .aboutDetail__circle--2 {
+    width: 283px;
+    height: 283px;
+    bottom: -143px;
+    left: 631px;
+}
+#aboutSection .aboutDetail__circle--3 {
+    width: 231px;
+    height: 231px;
+    top: 100px;
+    right: -231px;
+}
+
+/* этапы проведения */
+#aboutSection .aboutSteps {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+#aboutSection .aboutSteps__name {
+    text-align: center;
+    font-family: Museo-700, Arial, sans-serif;
+    font-size:  24px;
+    text-transform: uppercase;
+    position: relative;
+}
+#aboutSection .aboutStepText {
+    display: inline-block;
+}
+#aboutSection .aboutStepLine {
+    width: 268px;
+    background-image: url(../../img/about/border.png);
+    background-repeat: repeat-x;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+}
+#aboutSection .aboutStepLine--left {
+    left: 54px
+}
+#aboutSection .aboutStepLine--right {
+    right: 54px;
+}
+/* шаги */
+#aboutSection .aboutStepsList {
+    overflow: hidden;
+    padding-top: 16px;
+}
+#aboutSection .aboutStepsList__item {
+    width: 320px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+#aboutSection .aboutStep__image {
+    display: inline-block;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    opacity: 0;
+    transform: scale(0,0);
+}
+#aboutSection .aboutStep__image--1 {
+    background-image: url(../../img/about/step1.jpg);
+    width:62px;
+    margin-right: -60px;
+}
+#aboutSection .aboutStep__image--2 {
+    background-image: url(../../img/about/step2.jpg);
+    width: 81px;
+}
+#aboutSection .aboutStep__image--3 {
+    background-image: url(../../img/about/step3.jpg);
+    width: 92px;
+    margin-left: -69px;
+}
+#aboutSection .aboutStep__number {
+    color: #00b9f2;
+    font-size: 20px;
+    font-family: Museo-300, Arial, sans-serif;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 35px;
+}
+#aboutSection .aboutStep__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+#aboutSection .aboutStep__name--1 {
+    margin-right: -60px;
+}
+#aboutSection .aboutStep__name--3 {
+    margin-left: -70px;
+}
+#aboutSection .aboutStep__detailInformation {
+    font-family: Museo-300, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: left;
+    padding-top: 25px;
+}
+#aboutSection .aboutStep__detailInformation--1 {
+    padding-left: 54px;
+}
+#aboutSection .aboutStep__detailInformation--2 {
+    padding-left: 27px;
+}
+#aboutSection .aboutStep__detailInformation--3 {
+    padding-left: 20px;
+    padding-right: 54px;
+}
+#aboutSection .aboutTextBold {
+    font-weight: bold;
+}
+/* архив */
+#aboutSection .aboutArchive {
+    padding-top: 45px;
+}
+#aboutSection .aboutArchive__name {
+    text-align: center;
+    font-family: Museo-700, Arial, sans-serif;
+    font-size:  24px;
+    text-transform: uppercase;
+    position: relative;
+}
+#aboutSection .aboutArchive {
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 51px;
+}
+#aboutSection .aboutStepLine--width {
+    width: 355px;
+}
+#aboutSection .aboutArchive__detailInformation {
+    padding-top: 40px;
+    text-align: center;
+    font-family: Museo-300, Arial, sans-serif;
+    font-size: 18px;
+}
+#aboutSection .aboutArchiveLinksList {
+    text-align: center;
+    width: 338px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#aboutSection .aboutArchiveLinksList__item {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 20px;
+    color: #0083ca;
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+#aboutSection .aboutArchiveLinksList__item:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 668px) {
+    #aboutSection .aboutDetailContainer {
+        min-width: 320px;
+    }
+    .mobile #aboutSection .aboutDetail {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0;
+        min-width: 320px;
+        height: auto;
+    }
+    .mobile #aboutSection .aboutDetail__prize {
+        width: 100px;
+        height: 234px;
+        background-size: contain;
+        right: 15px;
+        top: 30px;
+    }
+    .mobile #aboutSection .aboutDetail__name {
+        padding-top: 20px;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .mobile #aboutSection .aboutDetail__detailInformation {
+        width: auto;
+        font-size: 14px;
+        padding-top: 14px;
+    }
+    .mobile #aboutSection .aboutDetail__detailInformation--1 {
+        width: 73%;
+    }
+    .mobile #aboutSection .aboutButtonContainer {
+        width: 100%;
+        padding-right: 0;
+        margin-top: 16px;
+    }
+    .mobile #aboutSection .aboutButton {
+        width: 220px;
+        height: 44px;
+        line-height: 44px;
+        border-radius:  22px;
+        font-size: 18px;
+    }
+    .mobile #aboutSection .aboutButtonContainer--1 {
+        padding-bottom: 20px;
+    }
+    .mobile #aboutSection .aboutSteps {
+       width: auto;
+        min-width: 320px;
+        padding-top: 25px;
+    }
+    .mobile #aboutSection .aboutStepsList__item {
+        float: none;
+        display: block;
+        width: auto;
+    }
+    .mobile #aboutSection .aboutStep__image--1 {
+        margin-right:  0;
+    }
+    .mobile #aboutSection .aboutStep__name--1 {
+        margin-right:  0;
+    }
+    .mobile #aboutSection .aboutStep__detailInformation {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mobile #aboutSection .aboutStep__image--3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .mobile #aboutSection .aboutStep__name--3 {
+        margin-left: 0;
+    }
+    .mobile #aboutSection .aboutStepsList {
+        padding-bottom: 20px;
+    }
+    .mobile #aboutSection .aboutStepLine {
+        display: none;
+    }
+    .mobile #aboutSection .aboutArchive {
+        width: auto;
+        min-width: 320px;
+        padding-top: 15px;
+    }
+    .mobile #aboutSection .aboutArchiveLinksList__item {
+        font-size: 16px;
+    }
+    .mobile #aboutSection .aboutArchive__detailInformation {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .mobile #aboutSection .aboutArchiveLinksList {
+        width: auto;
+    }
+}

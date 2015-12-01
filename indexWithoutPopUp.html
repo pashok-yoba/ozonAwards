@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html class="yui3-cssreset">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="2015/css/cssreset-context-min.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/header.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="2015/css/main/main.css">
+    <script src="2015/js/modernizr.custom.37278.js"></script>
+    <script src="2015/js/detectmobilebrowser.js"></script>
+    <script src="2015/js/TweenMax.min.js"></script>
+    <script src="2015/js/ScrollToPlugin.min.js"></script>
+    <script src="2015/js/header.js"></script>
+    <script src="2015/js/nomination.js"></script>
+    <script src="2015/js/slider.js"></script>
+    <script src="2015/js/main.js"></script>
+
+    <meta property="og:title" content="OZON ONLINE AWARDS" />
+    <meta property="og:site_name" content="OZON.ru" />
+    <meta property="og:description" content="Вы – выбираете, а мы – награждаем! Книги, блогеры, бестселлеры в основных категориях OZON.ru!"/>
+    <meta name="description" content="Вы – выбираете, а мы – награждаем! Книги, блогеры, бестселлеры в основных категориях OZON.ru!"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+<body>
+<header class="header" id="header">
+    <a class="headerLogo" href="http://www.ozon.ru/premia/">
+        <ul class="headerLogo__bubbles bubblesList">
+            <li class="bubblesList__bubble bubblesList__bubble--blue"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--green"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--orange"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--red"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--purples"></li>
+        </ul>
+    </a>
+    <ul class="headerSocial">
+        <li class="headerSocial__item">
+            <a class="headerSocialLink" href="mailto:premia@ozon.ru?subject=OZON AWARDS"><span class="headerSocialMail"></span><span class="headerSocialText">Написать нам</span></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--2">
+            <span class="headerSocialLink" ><span class="headerSocialText">Расскажите о нас</span></span>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--faceBook" onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--vk"  onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--class" onclick="this.href='http://odnoklassniki.ru/dk?st.cmd=addShare&st.s=1000&st._surl='+window.location.href+window.location.hash+'&tkn=3009'"></a>
+        </li>
+        <li class="headerSocial__item headerSocial__item--icons">
+            <a href="#" class="socialIcon socialIcon--tweeter" onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="headerSocial__close"></li>
+    </ul>
+    <nav class="headerMenu">
+        <a href="http://www.ozon.ru/premia/" class="headerMenu__item headerMenu__item--home"></a>
+        <a href="news.html" class="headerMenu__item headerMenu__item--news headerMenu__item--hover">Новости</a>
+        <a href="about.html" class="headerMenu__item headerMenu__item--about headerMenu__item--hover">О премии</a>
+        <a href="nominations.html" class="headerMenu__item headerMenu__item--nomination headerMenu__item--hover">Номинации</a>
+        <a href="http://www.ozon.ru/premia/?voting" class="headerMenu__item headerMenu__item--voting">Голосование</a>
+    </nav>
+</header>
+<div id="mainTop">
+    <div class="mainAwards">
+        <h1 class="mainAwards__name">OZON.ru <span class="mainBr"></br></span>ONLINE AWARDS</h1>
+        <p class="mainAwards__detail">
+            Всероссийская. Честная. Экспертная. Онлайн-премия OZON.ru ONLINE AWARDS – прямой наследник Книжной премии Рунета. Мы сохранили лучшее и пошли вперёд. Ведь OZON.ru – это всё, что нужно, выгодно и удобно.
+            <br/><br/>
+            И это только начало. Вы с нами?
+        </p>
+        <div class="mainButtonContainer">
+            <a href="about.html" class="votingButton">Что дальше?</a>
+        </div>
+    </div>
+</div>
+<div id="nominationSection">
+    <div class="nominationContainer">
+        <article class="nominationDetail">
+            <h2 class="nominationDetail__name">
+                <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+                <span class="nominationStepText">Номинации</span>
+                <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+            </h2>
+            <p class="nominationDetail__informationTExt">
+                Лучшее сочетание цены и качества этих товаров сделали их бестселлерами, а мы отметим это премией! Но положительные отзывы тоже кое-что значат, не так ли? Особенно, когда их много. Очень много. Разве это не достойно награды? Ещё как достойно!
+            </p>
+            <ul class="nominationList">
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?books" class="nominationItem__circle nominationItem__circle--1"></a>
+                    <a href="nominations.html?books" class="nominationItem__name">Книги</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?electronics" class="nominationItem__circle nominationItem__circle--2"></a>
+                    <a href="nominations.html?electronics" class="nominationItem__name">Электроника</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?cosm" class="nominationItem__circle nominationItem__circle--3"></a>
+                    <a href="nominations.html?cosm" class="nominationItem__name">Косметика</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?tech" class="nominationItem__circle nominationItem__circle--4"></a>
+                    <a href="nominations.html?tech" class="nominationItem__name">Бытовая<br/>техника</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?children" class="nominationItem__circle nominationItem__circle--5"></a>
+                    <a href="nominations.html?children" class="nominationItem__name">Товары<br/>для детей</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?yourself" class="nominationItem__circle nominationItem__circle--6"></a>
+                    <a href="nominations.html?yourself" class="nominationItem__name">Сделай сам</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?clothes" class="nominationItem__circle nominationItem__circle--7"></a>
+                    <a href="nominations.html?clothes" class="nominationItem__name">Одежда</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?sport" class="nominationItem__circle nominationItem__circle--8"></a>
+                    <a href="nominations.html?sport" class="nominationItem__name">Спорттовары</a>
+                </li>
+                <li class="nominationList__item nominationItem">
+                    <a href="nominations.html?market" class="nominationItem__circle nominationItem__circle--9"></a>
+                    <a href="nominations.html?market" class="nominationItem__name">Маркетинг</a>
+                </li>
+            </ul>
+            <a href="nominations.html" class="allNominationLink">Все номинации</a>
+            <div class="nominationDetail__circle nominationDetail__circle--1"></div>
+            <div class="nominationDetail__circle nominationDetail__circle--2"></div>
+        </article>
+    </div>
+</div>
+
+<div id="main">
+<a class="voating"></a>
+    <h1 class="main__name">Голосуйте и номинируйте!</h1>
+    <p class="main__blogger">Книги ждут ваши голоса, а <span class="bloggerLink">блогеры – заявок!</span></p>
+    <a class="fiction"></a>
+    <div class="booksSection">
+        <h3 class="booksSection__name">
+            <span class="booksSectionStepLine booksSectionStepLine--left"></span>
+            <span class="booksSectionStepText">Художественная литература</span>
+            <span class="booksSectionStepLine booksSectionStepLine--right"></span>
+        </h3>
+        <ul class="mainSlider mainSlider--art">
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2"></a>
+                <p class="mainSliderItem__author">Донна Тартт</p>
+                <p class="mainSliderItem__name">Щегол</p>
+                <div class="mainSliderItem__voting" data-book="1-2">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3"></a>
+                <p class="mainSliderItem__author">Дмитрий Глуховский</p>
+                <p class="mainSliderItem__name">Метро 2035</p>
+                <div class="mainSliderItem__voting" data-book="1-3">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4"></a>
+                <p class="mainSliderItem__author">Александра Маринина</p>
+                <p class="mainSliderItem__name">Ангелы на льду не выживают</p>
+                <div class="mainSliderItem__voting" data-book="1-4">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg5"></a>
+                <p class="mainSliderItem__author">Виталий Калгин</p>
+                <p class="mainSliderItem__name">Виктор Цой и его "КИНО"</p>
+                <div class="mainSliderItem__voting" data-book="1-5">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg6"></a>
+                <p class="mainSliderItem__author">Энтони Дорр</p>
+                <p class="mainSliderItem__name">Весь невидимый нам свет</p>
+                <div class="mainSliderItem__voting" data-book="1-6">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg7"></a>
+                <p class="mainSliderItem__author">Джоджо Мойес</p>
+                <p class="mainSliderItem__name">Серебристая бухта</p>
+                <div class="mainSliderItem__voting" data-book="1-7">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg8"></a>
+                <p class="mainSliderItem__author"><br/></p>
+                <p class="mainSliderItem__name">Paola. Алфавит Паолы Волковой</p>
+                <div class="mainSliderItem__voting" data-book="1-8">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg9"></a>
+                <p class="mainSliderItem__author">Энди Вейер</p>
+                <p class="mainSliderItem__name">Марсианин</p>
+                <div class="mainSliderItem__voting" data-book="1-9">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg10"></a>
+                <p class="mainSliderItem__author">Зои Сагг</p>
+                <p class="mainSliderItem__name">Девушка Online</p>
+                <div class="mainSliderItem__voting" data-book="1-10">Голосовать</div>
+            </li>
+
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg11"></a>
+                <p class="mainSliderItem__author">Татьяна Устинова</p>
+                <p class="mainSliderItem__name">Ковчег Марка</p>
+                <div class="mainSliderItem__voting" data-book="1-11">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg12"></a>
+                <p class="mainSliderItem__author">Джуно Диас</p>
+                <p class="mainSliderItem__name">Короткая фантастическая жизнь Оскара Вау</p>
+                <div class="mainSliderItem__voting" data-book="1-12">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg1"></a>
+                <p class="mainSliderItem__author">Николай Никулин</p>
+                <p class="mainSliderItem__name"> Воспоминания о войне</p>
+                <div class="mainSliderItem__voting" data-book="1-1">Голосовать</div>
+            </li>
+        </ul>
+        <div class="sliderContainer">
+            <div class="sliderWindow sliderArt"></div>
+        </div>
+    </div>
+
+    <div class="booksSection">
+        <a class="nonfiction"></a>
+        <h3 class="booksSection__name">
+            <span class="booksSectionStepLine booksSectionStepLine--left booksSectionStepLine--width"></span>
+            <span class="booksSectionStepText">нон-фикшн</span>
+            <span class="booksSectionStepLine booksSectionStepLine--right booksSectionStepLine--width"></span>
+        </h3>
+        <ul class="mainSlider mainSlider--non">
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-1"></a>
+                <p class="mainSliderItem__author"></p>
+                <p class="mainSliderItem__name">#SEKTA. Школа идеального тела.<br/> История НЕ про ТЕЛО</p>
+                <div class="mainSliderItem__voting" data-book="2-1">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-2"></a>
+                <p class="mainSliderItem__author">Сталик Ханкишиев</p>
+                <p class="mainSliderItem__name">Плов</p>
+                <div class="mainSliderItem__voting" data-book="2-2">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-3"></a>
+                <p class="mainSliderItem__author"><br/></p>
+                <p class="mainSliderItem__name">«История глазами Крокодила. XX век»</p>
+                <div class="mainSliderItem__voting" data-book="2-3">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-4"></a>
+                <p class="mainSliderItem__author">Натали Ратковски</p>
+                <p class="mainSliderItem__name">Рисуй каждый день</p>
+                <div class="mainSliderItem__voting" data-book="2-4">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-5"></a>
+                <p class="mainSliderItem__author">Владимир Яковлев</p>
+                <p class="mainSliderItem__name">Другое дело</p>
+                <div class="mainSliderItem__voting" data-book="2-5">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-6"></a>
+                <p class="mainSliderItem__author">Александр Бубнов</p>
+                <p class="mainSliderItem__name">Спартак. 7 лет строгого режима</p>
+                <div class="mainSliderItem__voting" data-book="2-6">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-7"></a>
+                <p class="mainSliderItem__author">Кирилл Бабаев, Александра Архангельская</p>
+                <p class="mainSliderItem__name">Что такое Африка</p>
+                <div class="mainSliderItem__voting" data-book="2-7">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-8"></a>
+                <p class="mainSliderItem__author"> Джоан Бэсфорд</p>
+                <p class="mainSliderItem__name">Таинственный сад</p>
+                <div class="mainSliderItem__voting" data-book="2-8">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-9"></a>
+                <p class="mainSliderItem__author">Оливер Стоун, Питер Кузник </p>
+                <p class="mainSliderItem__name">Нерассказанная история США</p>
+                <div class="mainSliderItem__voting" data-book="2-9">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-10"></a>
+                <p class="mainSliderItem__author">Пол "Тренер" Уэйд</p>
+                <p class="mainSliderItem__name"> Калистеника</p>
+                <div class="mainSliderItem__voting" data-book="2-10">Голосовать</div>
+            </li>
+
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-11"></a>
+                <p class="mainSliderItem__author">Вадим Зеланд</p>
+                <p class="mainSliderItem__name"> чистоПитание</p>
+                <div class="mainSliderItem__voting" data-book="2-11">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg2-12"></a>
+                <p class="mainSliderItem__author">Яна Зубцова, Тийна Орасмяэ-Медер</p>
+                <p class="mainSliderItem__name">Бьюти-мифы</p>
+                <div class="mainSliderItem__voting" data-book="2-12">Голосовать</div>
+            </li>
+        </ul>
+        <div class="sliderContainer">
+            <div class="sliderWindow sliderNon"></div>
+        </div>
+    </div>
+
+    <div class="booksSection">
+        <a class="kids"></a>
+        <h3 class="booksSection__name">
+            <span class="booksSectionStepLine booksSectionStepLine--left booksSectionStepLine--child"></span>
+            <span class="booksSectionStepText">детская литература</span>
+            <span class="booksSectionStepLine booksSectionStepLine--right booksSectionStepLine--child"></span>
+        </h3>
+        <ul class="mainSlider mainSlider--child">
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-1"></a>
+                <p class="mainSliderItem__author"><br/></p>
+                <p class="mainSliderItem__name">Энциклопедия MARVEL HEROES</p>
+                <div class="mainSliderItem__voting" data-book="3-1">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-2"></a>
+                <p class="mainSliderItem__author">Жаклин Келли</p>
+                <p class="mainSliderItem__name">Эволюция Кэлпурнии Тейт</p>
+                <div class="mainSliderItem__voting" data-book="3-2">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-3"></a>
+                <p class="mainSliderItem__author">Елена Верейская</p>
+                <p class="mainSliderItem__name">Три девочки</p>
+                <div class="mainSliderItem__voting" data-book="3-3">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-4"></a>
+                <p class="mainSliderItem__author">Ирина Мальцева</p>
+                <p class="mainSliderItem__name">Как стать Монтессори-мамой</p>
+                <div class="mainSliderItem__voting" data-book="3-4">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-5"></a>
+                <p class="mainSliderItem__author">Лариса Суркова </p>
+                <p class="mainSliderItem__name"> Как здорово с ребенком от 1 до 3 лет</p>
+                <div class="mainSliderItem__voting" data-book="3-5">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-6"></a>
+                <p class="mainSliderItem__author"><br/></p>
+                <p class="mainSliderItem__name">«Архив Мурзилки»</p>
+                <div class="mainSliderItem__voting" data-book="3-6">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-7"></a>
+                <p class="mainSliderItem__author">Алан Маршалл </p>
+                <p class="mainSliderItem__name"> Я умею прыгать через лужи</p>
+                <div class="mainSliderItem__voting" data-book="3-7">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-8"></a>
+                <p class="mainSliderItem__author">KUMON </p>
+                <p class="mainSliderItem__name">Давай вырезать</p>
+                <div class="mainSliderItem__voting" data-book="3-8">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-9"></a>
+                <p class="mainSliderItem__author">Анна Никольская </p>
+                <p class="mainSliderItem__name">Чемодановна. Моя ужасная бабушка</p>
+                <div class="mainSliderItem__voting" data-book="3-9">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-10"></a>
+                <p class="mainSliderItem__author">Наталья Щерба</p>
+                <p class="mainSliderItem__name">Цикл "Часодеи"</p>
+                <div class="mainSliderItem__voting" data-book="3-10">Голосовать</div>
+            </li>
+
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-11"></a>
+                <p class="mainSliderItem__author">Юлия Венедиктова</p>
+                <p class="mainSliderItem__name">Армас. Зона надежды</p>
+                <div class="mainSliderItem__voting" data-book="3-11">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg3-12"></a>
+                <p class="mainSliderItem__author">Ганс Христиан Андерсен</p>
+                <p class="mainSliderItem__name">Русалочка</p>
+                <div class="mainSliderItem__voting" data-book="3-12">Голосовать</div>
+            </li>
+        </ul>
+        <div class="sliderContainer">
+            <div class="sliderWindow sliderChild"></div>
+        </div>
+    </div>
+
+    <div class="booksSection">
+        <a class="busines"></a>
+        <h3 class="booksSection__name">
+            <span class="booksSectionStepLine booksSectionStepLine--left booksSectionStepLine--child"></span>
+            <span class="booksSectionStepText">бизнес-литература</span>
+            <span class="booksSectionStepLine booksSectionStepLine--right booksSectionStepLine--child"></span>
+        </h3>
+        <ul class="mainSlider mainSlider--bis">
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-1"></a>
+                <p class="mainSliderItem__author">Роберт И. Саттон </p>
+                <p class="mainSliderItem__name">Не работайте с м*даками</p>
+                <div class="mainSliderItem__voting" data-book="4-1">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-2"></a>
+                <p class="mainSliderItem__author">Игорь Манн, Фарид Каримов</p>
+                <p class="mainSliderItem__name">Лайфхак на каждый день</p>
+                <div class="mainSliderItem__voting" data-book="4-2">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-3"></a>
+                <p class="mainSliderItem__author">Фил Барден</p>
+                <p class="mainSliderItem__name">Взлом маркетинга</p>
+                <div class="mainSliderItem__voting" data-book="4-3">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-4"></a>
+                <p class="mainSliderItem__author">Максим Недякин</p>
+                <p class="mainSliderItem__name">Искренний сервис</p>
+                <div class="mainSliderItem__voting" data-book="4-4">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-5"></a>
+                <p class="mainSliderItem__author">Нейт Сильвер </p>
+                <p class="mainSliderItem__name">Сигнал и Шум</p>
+                <div class="mainSliderItem__voting" data-book="4-5">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-6"></a>
+                <p class="mainSliderItem__author">Никита Непряхин</p>
+                <p class="mainSliderItem__name">Аргументируй это!</p>
+                <div class="mainSliderItem__voting" data-book="4-6">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-7"></a>
+                <p class="mainSliderItem__author">Алан Гринспен </p>
+                <p class="mainSliderItem__name">Карта и территория</p>
+                <div class="mainSliderItem__voting" data-book="4-7">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-8"></a>
+                <p class="mainSliderItem__author">Дмитрий Агарунов</p>
+                <p class="mainSliderItem__name">Бизнес в стиле Ж***</p>
+                <div class="mainSliderItem__voting" data-book="4-8">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-9"></a>
+                <p class="mainSliderItem__author">Эшли Вэнс </p>
+                <p class="mainSliderItem__name">Tesla, SpaceX и дорога в будущее</p>
+                <div class="mainSliderItem__voting" data-book="4-9">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-10"></a>
+                <p class="mainSliderItem__author">Эд Кэтмелл, Эми Уоллес </p>
+                <p class="mainSliderItem__name"> Корпорация гениев</p>
+                <div class="mainSliderItem__voting" data-book="4-10">Голосовать</div>
+            </li>
+
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-11"></a>
+                <p class="mainSliderItem__author">Андрей Парабеллум, Александр Белановский</p>
+                <p class="mainSliderItem__name"> Власть, лидерство и харизма</p>
+                <div class="mainSliderItem__voting" data-book="4-11">Голосовать</div>
+            </li>
+            <li class="mainSlider__item mainSliderItem mainSliderItem--art">
+                <a class="mainSliderItem__link mainSliderItem__link--artImg4-12"></a>
+                <p class="mainSliderItem__author">Павел Анненков</p>
+                <p class="mainSliderItem__name"> Ошибки на миллион долларов</p>
+                <div class="mainSliderItem__voting" data-book="4-12">Голосовать</div>
+            </li>
+        </ul>
+        <div class="sliderContainer">
+            <div class="sliderWindow sliderBis"></div>
+        </div>
+    </div>
+<div class="mainLoader"></div>
+</div>
+
+<a class="bloggerScroll"></a>
+<div id="blogger">
+    <div class="bloggerInner">
+        <h2 class="blogger__name">
+            <span class="nominationStepLine nominationStepLine--left nominationStepLine--width"></span>
+            <span class="nominationStepText">Лучший книжный блогер</span>
+            <span class="nominationStepLine nominationStepLine--right nominationStepLine--width"></span>
+        </h2>
+        <p class="blogger__detail">
+            Всё просто! Вы любите хорошие книги и рекомендуете их сотням и тысячам людей. Вы оберегаете умы и души ваших подписчиков от плохой литературы. Вы – тот, чьё мнение имеет значение. Мы готовы это отметить! Так чего же вы ждёте? Подайте заявку, написав письмо на premia@ozon.ru до 7 октября.<br />
+            А может быть, вы и есть подписчик и хотите номинировать на премию любимого блогера? Тогда выдвигайте своего кандидата: мы его обязательно рассмотрим! В шорт-лист попадут 10 блогеров с наибольшим количеством подписчиков, а победителя определит открытое голосование.
+        </p>
+        <div class="bloggerButtonContainer">
+            <a href="mailto:premia@ozon.ru?subject=OZON AWARDS" class="bloggerButton"><span class="bloggerButton__mail"></span><span class="bloggerButton__text">номинировать блоггера</span></a>
+        </div>
+    </div>
+</div>
+
+<footer id="aboutPartners">
+    <h2 class="aboutPartners__name">
+        <span class="aboutStepLine aboutStepLine--left"></span>
+        <span class="aboutStepText">Организаторы и партнёры</span>
+        <span class="aboutStepLine aboutStepLine--right"></span>
+    </h2>
+    <ul class="aboutOrganizationList">
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--1">
+            <span class="organizationName">Организтор:</span>
+            <div class="organizationImage organizationImage--1"></div>
+        </li>
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--2">
+            <span class="organizationName">При поддержке:</span>
+            <div class="organizationImage organizationImage--2"></div>
+        </li>
+        <li class="aboutOrganizationList__item aboutOrganizationList__item--3">
+            <span class="organizationName">Генеральный информационый партнёр:</span>
+            <div class="organizationImage organizationImage--3"></div>
+        </li>
+    </ul>
+    <ul class="aboutPartnersList">
+        <li class="aboutPartnersList__item aboutPartnersList__item--1"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--2"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--3"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--4"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--5"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--6"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--7"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--8"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--9"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--10"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--11"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--12"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--13"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--14"></li>
+        <li class="aboutPartnersList__item aboutPartnersList__item--15"></li>
+    </ul>
+</footer>
+
+<footer class="footer" id="footer">
+    <a class="footerLogo" href="http://www.ozon.ru/premia/">
+        <ul class="footerLogo__bubbles bubblesList">
+            <li class="bubblesList__bubble bubblesList__bubble--blue"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--green"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--orange"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--red"></li>
+            <li class="bubblesList__bubble bubblesList__bubble--purples"></li>
+        </ul>
+    </a>
+    <ul class="footerSocial">
+        <li class="footerSocial__item footerSocial__item--1">
+            <a class="footerSocialLink" href="mailto:premia@ozon.ru?subject=OZON AWARDS"><span class="footerSocialMail"></span><span class="footerSocialText">Написать нам</span></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--2">
+            <a class="footerSocialLink" href=""><span class="footerSocialText">Поделиться:</span></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--faceBook"  onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--vk" onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--class" onclick="this.href='http://odnoklassniki.ru/dk?st.cmd=addShare&st.s=1000&st._surl='+window.location.href+window.location.hash+'&tkn=3009'"></a>
+        </li>
+        <li class="footerSocial__item footerSocial__item--icons">
+            <a href="" class="socialIcon socialIcon--tweeter" onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash"></a>
+        </li>
+    </ul>
+    <nav class="footerMenu">
+        <a href="http://www.ozon.ru/premia/" class="footerMenu__item">Главная</a>
+        <a href="news.html" class="footerMenu__item footerMenu__item--news">Новости</a>
+        <a href="about.html" class="footerMenu__item footerMenu__item--about">о ПРЕМИи</a>
+        <a href="nominations.html" class="footerMenu__item footerMenu__item--nomination">НОМИНАЦИИ</a>
+    </nav>
+        <span class="footerDate">
+        © 2015 OZON.ru
+    </span>
+</footer>
+</body>
+</html>

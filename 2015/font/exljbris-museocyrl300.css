@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MuseoCyrl300';
+    src: url('exljbris-museocyrl300.eot');
+    src: url('exljbris-museocyrl300.eot') format('embedded-opentype'),
+         url('exljbris-museocyrl300.woff2') format('woff2'),
+         url('exljbris-museocyrl300.woff') format('woff'),
+         url('exljbris-museocyrl300.ttf') format('truetype'),
+         url('exljbris-museocyrl300.svg#MuseoCyrl300') format('svg');
+}

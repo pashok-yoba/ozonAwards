@@ -1,0 +1,245 @@
+@font-face {
+    font-family: Museo-500;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: Museo-700;
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl_700.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+@font-face {
+    font-family: Museo-300;
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+
+#newsSection {
+    background-color: #0083ca;
+    padding: 66px 0 74px 0;
+    overflow: hidden;
+    min-width: 1000px;
+}
+#newsSection .newsContainer {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#newsSection .newsSection__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 0 0 46px 0;
+}
+/* секция новостей */
+#newsSection .news {
+    overflow: hidden;
+    padding: 0 56px 0 69px;
+}
+#newsSection .news__image {
+    float: left;
+}
+#newsSection .newsImage {
+    width: 251px;
+    height: 179px;
+    margin-top: 4px;
+    position: relative;
+}
+#newsSection .newsImage--1 {
+    background-image: url(../../img/news/new1.jpg);
+}
+#newsSection .newsImage--2 {
+    background-image: url(../../img/news/new2.jpg);
+}
+/* дата новости */
+#newsSection .newsImage__date {
+    width: 55px;
+    height: 55px;
+    top: 0;
+    left: -15px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    display: table;
+}
+#newsSection .DateContainer {
+    display: table-cell;
+    width: 40px;
+    vertical-align: middle;
+}
+#newsSection .dateDay {
+    font-family: Museo-500, Arial, sans-serif;
+    font-size: 24px;
+    display: block;
+    line-height: 24px;
+}
+#newsSection .dateMonth {
+    font-family: Museo-500, Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 12px;
+    margin-top: 2px;
+    display: block;
+}
+/*---------------- */
+/* текст */
+#newsSection .news__text {
+    margin-left: 277px;
+}
+#newsSection .newsText__name {
+    font-family: Museo-700, Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: white;
+    text-transform: uppercase;
+}
+#newsSection .newsText__detail {
+    font-family: Museo-300, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: normal;
+}
+#newsSection .newsButton {
+    display: inline-block;
+    height: 38px;
+    font-family: Museo-300, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 38px;
+    width: 250px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid #80b96c;
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    text-align: center;
+}
+/* стили ie8 */
+.no-borderradius #newsSection .newsButton {
+    width: 252px;
+    height:39px;
+    background-image: url(../../img/news/newsIE.png);
+    border: none
+}
+#newsSection .newsButtonActive {
+    left: 0;
+    top: 0;
+    height: 48px;
+    line-height: 48px;
+    width: 280px;
+    border-radius: 24px;
+    font-size: 17px;
+}
+#newsSection .buttonContainer {
+    position: relative;
+    height: 48px;
+    margin-top: 20px;
+}
+/* separator */
+#newsSection .newsSeparator {
+    margin: 30px 0;
+    border: none;
+    height: 6px;
+    background-image: url(../../img/news/border.png);
+    background-repeat: repeat-x;
+}
+/*---------------------- */
+#newsSection .newsText__detail--last {
+    padding-top: 24px;
+}
+#newsSection .newsMail {
+    color: #ffae00;
+    text-decoration: none;
+}
+#newsSection .newsCircle {
+    background-image: url(../../img/news/circles.png);
+    background-size: 100% 100%;
+}
+/* стили ie8 */
+.no-backgroundsize #newsSection .newsCircle {
+    display: none;
+}
+#newsSection .newsCircle--1 {
+    width: 232px;
+    height: 232px;
+    position: absolute;
+    top: 300px;
+    left: -250px;
+}
+#newsSection .newsCircle--2 {
+    width: 232px;
+    height: 232px;
+    position: absolute;
+    top: -171px;
+    right: -176px;
+}
+
+@media only screen and (max-width: 668px) {
+    .mobile #newsSection {
+       min-width: 320px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .mobile #newsSection .newsContainer {
+        width: auto;
+    }
+    .mobile #newsSection .newsSection__name {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .mobile #newsSection .news {
+        padding: 0 20px 0 20px;
+    }
+    .mobile #newsSection .news__text {
+        margin-left: 0;
+    }
+    .mobile #newsSection .newsText__name {
+        margin-left: 110px;
+        font-size: 15px;
+        height: 85px;
+        box-sizing: border-box;
+        padding-top: 12px;
+        line-height: 1.3em;
+    }
+    .mobile #newsSection .newsImage {
+        width: 100px;
+        height: 71px;
+    }
+    .mobile #newsSection .newsImage__date {
+        width: 40px;
+        height: 40px;
+    }
+    .mobile #newsSection .newsText__detail {
+        font-size: 14px;
+    }
+    .mobile #newsSection .dateDay {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .mobile #newsSection .dateMonth {
+        font-size: 9px;
+    }
+    .mobile #newsSection .newsButton {
+        font-size:  12px;
+    }
+
+}
+
+
+

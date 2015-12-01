@@ -1,0 +1,372 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Museo-500;
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+@font-face {
+    font-family: Museo-700;
+    src: url('../fonts/MuseoSansCyrl_700.eot?#iefix');
+    src: url('../fonts/MuseoSansCyrl_700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl_700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl_700.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl_700.svg#MuseoSansCyrl_700') format('svg');
+}
+#header {
+    height: 118px;
+    position: relative;
+    background-color: #3babf0;
+    overflow: hidden;
+    font-family:  Museo-500, Arial, sans-serif;
+    min-width: 1000px;
+}
+/* --------logo header---------- */
+#header .headerLogo {
+    position: absolute;
+    width: 358px;
+    height: 358px;
+    background-image: url(../img/header/logo-without-bubles.png);
+    background-repeat: no-repeat;
+    left: -53px;
+    top: -128px;
+}
+#header .headerLogo__bubbles {
+    position: absolute;
+    top: 220px;
+    left: 143px;
+}
+#header .bubblesList {
+    display: inline-block;
+}
+/*стили ie */
+.no-borderradius #header .bubblesList {
+    display: none;
+}
+.no-borderradius  #header .headerLogo {
+    background-image: url(../img/header/logoIE.png);
+}
+#header .bubblesList__bubble {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+#header .bubblesList__bubble--blue {
+    background-color: #007ac0;
+}
+#header .bubblesList__bubble--green {
+    background-color: #a2c037;
+}
+#header .bubblesList__bubble--orange {
+    background-color: #e19f1a;
+}
+#header .bubblesList__bubble--red {
+    background-color: #c73429;
+}
+#header .bubblesList__bubble--purples {
+    background-color: #9a438d;
+}
+/* ----------------------------- */
+/* menu social */
+#header .headerSocial {
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: 17px
+}
+#header .headerSocial__item {
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 14px;
+}
+#header .headerSocial__item--2 {
+    padding: 0 8px 0 0;
+}
+#header .headerSocial__item--icons {
+    padding: 0 9px 0 0;
+}
+#header .headerSocialLink {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#header .headerSocialText {
+    display: inline-block;
+}
+#header .headerSocialMail {
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    background-image: url(../img/header/mailing.jpg);
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#header .socialIcon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
+    background-repeat:  no-repeat;
+    background-position: center center;
+}
+#header .socialIcon--faceBook {
+    background-image: url(../img/header/facebook-on.png);
+}
+#header .socialIcon--faceBookActive {
+    background-image: url(../img/header/facebook-off.png);
+    background-color: white;
+}
+#header .socialIcon--vk {
+    background-image: url(../img/header/vk-on.png);
+}
+#header .socialIcon--vkActive {
+    background-image: url(../img/header/vk-off.png);
+    background-color: white;
+}
+#header .socialIcon--class {
+    background-image: url(../img/header/class-on.png);
+}
+#header .socialIcon--classActive {
+    background-color: white;
+    background-image: url(../img/header/class-off.png);
+}
+#header .socialIcon--tweeter {
+    background-image: url(../img/header/twitter-on.png);
+}
+#header .socialIcon--tweeterActive {
+    background-color: white;
+    background-image: url(../img/header/twitter-off.png);
+}
+/* стили для ie8 */
+.no-borderradius #header .socialIcon--faceBook {
+    background-image: url(../img/header/facebookIE.png);
+    width: 29px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #header .socialIcon--vk {
+    background-image: url(../img/header/vkIE.png);
+    width: 27px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #header .socialIcon--class {
+    background-image: url(../img/header/classIE.png);
+    width: 28px;
+    height: 29px;
+    border: none
+}
+.no-borderradius #header .socialIcon--tweeter {
+    background-image: url(../img/header/twitterIE.png);
+    width: 27px;
+    height: 29px;
+    border: none
+}
+
+/*----------------------------- */
+/* header menu nav */
+#header .headerMenu {
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+}
+#header .headerMenu:after {
+    content: ' ';
+    width: 0;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#header .headerMenu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 15px;
+    vertical-align: middle;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+#header .headerMenu__item--hover:hover:after {
+    content: ' ';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: #ffc20e;
+}
+#header .headerMenu__item--home {
+    width: 19px;
+    height: 19px;
+    background-image: url(../img/header/home.jpg);
+}
+#header .headerMenu__item--voting {
+    background-color: #ffae00;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+/* стили ie8 */
+.no-borderradius #header .headerMenu__item--voting {
+    background-color: transparent;
+    background-image: url(../img/header/orangeIE.png);
+    width: 116px;
+    box-sizing: border-box;
+    height: 21px;
+}
+#header .headerMenu__item--votingActive {
+    background-color: white;
+    color: #3babf0;
+}
+@media only screen and (max-width: 668px) {
+    .mobile #header{
+        min-width: 320px;
+        width: auto;
+        height: 112px;
+        overflow: hidden;
+    }
+    /* логотип */
+    .mobile #header .headerLogo {
+        display: block;
+        width:200px;
+        height: 200px;
+        background-size: cover;
+        top: -50px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    .mobile #header .headerLogo__bubbles {
+        top: 113px;
+        left: 82px;
+    }
+    .mobile #header .bubblesList__bubble {
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+    }
+    /* -------------------- */
+    /* основное меню */
+    .mobile #header .headerMenu {
+        width: 100%;
+        top: 90px;
+        left:0;
+        background-color: #3babf0; ;
+        overflow: hidden;
+        height: 22px;
+    }
+    .mobile #header .headerMenu__item {
+        display: block;
+        margin: 0;
+        float: left;
+        box-sizing: border-box;
+        padding: 0;
+        width: 20%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .mobile #header .headerMenu__item--home {
+        width: 5.9375%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .mobile #header .headerMenu__item--voting {
+        width: 24.0625%;
+    }
+    .mobile #header .headerMenu__item--nomination {
+        width: 26%;
+    }
+    .mobile #header .headerMenu__item--voting {
+        width: 28.0625%
+    }
+/*---------------------------- */
+    /* меню кнопок соц-сетей */
+    .mobile #header .headerSocial {
+        left: 5px;
+        top: 5px;
+        padding: 5px 5px 10px 5px;
+        right: auto;
+    }
+    .mobile #header .headerSocial:before {
+        content: 'расскажите о нас';
+        color: white;
+        display: block;
+        width: 76px;
+    }
+    .mobile #header .headerSocial__item {
+        display: none;
+        padding: 0;
+        padding-right: 7px;
+
+    }
+    .mobile #header .headerSocial__item--2 {
+        display: none!important;
+    }
+    .mobile #header .headerSocialLink {
+        color: #3babf0;
+    }
+    .mobile #header .headerSocialMail {
+        border: 1px solid  #3babf0
+    }
+    .mobile #header .socialIcon {
+        border: 1px solid #3babf0
+    }
+    .mobile #header .socialIcon--faceBook {
+        background-image: url(../img/header/facebook-off.png);
+        background-color: white;
+    }
+    .mobile #header .socialIcon--vk {
+        background-image: url(../img/header/vk-off.png);
+        background-color: white;
+    }
+    .mobile #header .socialIcon--class {
+        background-color: white;
+        background-image: url(../img/header/class-off.png);
+    }
+    .mobile #header .socialIcon--tweeter {
+        background-image: url(../img/header/twitter-off.png);
+        background-color: white;
+    }
+    .mobile #header .headerSocial-active {
+        background-color: white;
+        border-radius: 15px;
+        width: 270px;
+        height:75px;
+        box-sizing: border-box;
+    }
+    .mobile #header .headerSocial-active:before {
+       color: #3babf0;
+    }
+    .mobile #header .headerSocial-active .headerSocial__item {
+        display: block;
+    }
+    .mobile #header .headerSocial-active .headerSocial__close {
+        width: 30px;
+        height: 30px;
+        background-image: url(../img/header/close.jpg);
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-size: 50% 50%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    /* ----------------------------- */
+}
+/* смена размера шрифта менюшки*/
+@media only screen and (min-width: 400px) and (max-width: 668px){
+    .mobile #header .headerMenu__item {
+        font-size: 12px;
+    }
+}
